@@ -1,1 +1,0 @@
-test http://ipv4.download.thinkbroadband.com/5MB.zip

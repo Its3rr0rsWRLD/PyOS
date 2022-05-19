@@ -1,2 +1,3 @@
 local Packages/2048
 run 2048.py
+install 2048.py colors.py

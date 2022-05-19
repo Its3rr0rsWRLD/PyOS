@@ -2,4 +2,3 @@
 GTN
 algebra
 battery
-btcprice

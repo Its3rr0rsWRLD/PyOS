@@ -1,0 +1,3 @@
+local Packages/algebra
+run algebra.py
+install algebra.py requirements.txt

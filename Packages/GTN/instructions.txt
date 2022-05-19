@@ -1,0 +1,3 @@
+local Package/GTN
+run gtn.py
+install gtn.py 

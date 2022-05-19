@@ -1,0 +1,3 @@
+local Packages/battery
+run battery.py
+install battery.py placeholder.txt

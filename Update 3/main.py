@@ -701,26 +701,6 @@ if version == "2.0":
                     FAIL = '\033[91m'
                     BOLD = '\033[1m'
                     
-    if beta == True:
-         print(ConsoleColors.BOLD + ConsoleColors.OKGREEN + """
-
-    Welcome to                                                            
-            ,-.----.                        ,----..               
-            \    /  \                      /   /   \   .--.--.    
-            |   :    \                    /   .     : /  /    '.  
-            |   |  .\ :                  .   /   ;.  \  :  /`. /  
-            .   :  |: |                 .   ;   /  ` ;  |  |--`   
-            |   |   \ :    .--,         ;   |  ; \ ; |  :  ;_     
-            |   : .   /  /_ ./|         |   :  | ; | '\  \    `.  
-            ;   | |`-', ' , ' :         .   |  ' ' ' : `----.   \ 
-            |   | ;  /___/ \: |         '   ;  \; /  | __ \  \  | 
-            :   ' |   .  \  ' |          \   \  ',  / /  /`--'  / 
-            :   : :    \  ;   :           ;   :    / '--'.     /  
-            |   | :     \  \  ;            \   \ .'    `--'---'   
-            `---'.|      :  \  \            `---`                 
-            `---`        \  ' ;                                  
-                            `--`                                   
-                                                    Update 2.0\n\n""")
     root = input(ConsoleColors.BOLD + ConsoleColors.OKBLUE + "\nRoot -> ")
     
     # | Change Version | #
@@ -815,6 +795,22 @@ if version == "2.0":
                     print("Error:" + package + " not installed.")
                     os.system(sys.executable + " main.py")
                     
-    else:
-        print("\nError: " + root + " not found.")
+    # | Password Cracker | #
+    if root == "pine passcracker" or root == "pine pwc":
+        passcracker()
         os.system(sys.executable + " main.py")
+    
+    # | OffSite Packages | #
+    if root == "pine -o":
+        answer = input("\nPlease know that this is an offsite package and is not checked for malware or viruses \nand is installed directly to your computer and not in a contained enviorment. \n\nAre you sure you want to install it? (Y/N) > ")
+        if answer == "n" or answer == "N":
+            os.system(sys.executable + " main.py")
+        if answer == "y" or answer == "Y":
+            package = input("\nWhat is the name of the package? > ")
+            print("")
+            os.system("pip install " + package)
+            os.system(sys.executable + " main.py")
+                    
+    #else:
+        #print("\nError: " + root + " not found.")
+        #os.system(sys.executable + " main.py")

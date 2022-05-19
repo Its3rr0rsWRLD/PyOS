@@ -1,3 +1,0 @@
-local Packages/btcprice
-run btcprice.py
-install btcprice.py placeholder.txt

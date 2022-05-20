@@ -3,3 +3,5 @@ GTN
 algebra
 battery
 ripthatgit
+zipcracker
+npm

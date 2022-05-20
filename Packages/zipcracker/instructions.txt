@@ -1,0 +1,3 @@
+local Packages/zipcracker
+run zipcracker.py
+install zipcracker.py placeholder.txt

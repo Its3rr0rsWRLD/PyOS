@@ -1,1 +1,3 @@
-
+local Packages/graphcal
+run graphcal.py
+install graphcal placeholder.txt

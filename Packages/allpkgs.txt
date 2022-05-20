@@ -6,3 +6,4 @@ ripthatgit
 zipcracker
 npm
 ytdownload
+graphcal

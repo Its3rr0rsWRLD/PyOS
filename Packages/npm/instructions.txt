@@ -1,0 +1,3 @@
+local Packages/npm
+run npm.py
+install npm.py placeholder.txt

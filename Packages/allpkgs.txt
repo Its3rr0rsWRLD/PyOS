@@ -5,3 +5,4 @@ battery
 ripthatgit
 zipcracker
 npm
+ytdownload

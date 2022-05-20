@@ -1,41 +1,41 @@
 import random
-print("wassup hommie, care to play a game?")
-print("i'll try to guess the number YOU choose.")
-print("please tell me the borders: ")
+print("\nWassup hommie, care to play a game?\n")
+print("\nI'll try to guess the number YOU choose.\n")
+print("\nPlease tell me the borders: \n")
 
-a = int(input("Min: "))
-b = int(input("Max: "))
+a = int(input("\nMin: "))
+b = int(input("\nMax: "))
 while True:
  if(a > b):
-    (print("error, min can't be more than max. "))
-    a = int(input("Min: "))
-    b = int(input("Max: "))
+    (print("\nError, min can't be more than max :| \n"))
+    a = int(input("\nMin: "))
+    b = int(input("\nMax: "))
  else:
      break;
 breaking = "------------"
-print("now type in the number: ")
+print("\nNow type in the number: \n")
 c = int(input(" "))
 tries = 1;
 d = random.randint(a, b)
 while True:
    if(d == c and tries == 1):
-            print("guess 1: " + str(d))
-            print("HA, gotcha. I got it in 1 time!")
-            print("Wanna go again? y for yes and anykey for no. ")
+            print("\nGuess 1: " + str(d))
+            print("\nHA, gotcha. I got it in 1 time!\n")
+            print("\nWanna go again? y for yes and any key for no. \n")
             i = input("");
             if(i == "y"):
                print(breaking * 10);
-               a = int(input("Min: "))
-               b = int(input("Max: "))
+               a = int(input("\nMin: "))
+               b = int(input("\nMax: "))
 
-               print("now type in the number")
-               c = int(input(" "))
+               print("\nNow type in the number")
+               c = int(input("\n "))
                tries = 1;
                if(a > b):
-                      print("error, min can't be more than max. ")
-                      a = int(input("Min: "))
-                      b = int(input("Max: "))
-                      print("now type in the number")
+                      print("\nError, min can't be more than max. ")
+                      a = int(input("\nMin: "))
+                      b = int(input("\nMax: "))
+                      print("\nNow type in the number")
                       c = int(input(" "))
                else:
                 d = random.randint(a, b)
@@ -58,7 +58,7 @@ while True:
                       print("error, min can't be more than max. ")
                       a = int(input("Min: "))
                       b = int(input("Max: "))
-                      print("now type in the number")
+                      print("\nnow type in the number")
                       c = int(input(" "))
               else:
                 d = random.randint(a, b)
@@ -67,22 +67,22 @@ while True:
               break;
     
    elif(c > b):
-      print("error, number can't be bigger than max.");
-      print("Wanna go again? y for yes and anykey for no. ")
+      print("\nerror, number can't be bigger than max.");
+      print("\nWanna go again? y for yes and anykey for no. ")
       i = input("");
       if(i == "y"):
           print(breaking * 10);
           a = int(input("Min: "))
           b = int(input("Max: "))
 
-          print("now type in the number")
+          print("\nnow type in the number")
           c = int(input(" "))
           tries = 1;
           if(a > b):
-                (print("error, min can't be more than max. "))
+                (print("\nerror, min can't be more than max. "))
                 a = int(input("Min: "))
                 b = int(input("Max: "))
-                print("now type in the number")
+                print("\nnow type in the number")
                 c = int(input(" "))
           else:
              d = random.randint(a, b)
@@ -90,22 +90,22 @@ while True:
       else:
           break;
    elif(c < a):
-      print("error, number can't be smaller than min.");
-      print("Wanna go again? y for yes and anykey for no. ")
+      print("\nError, number can't be smaller than min.");
+      print("\nWanna go again? y for yes and anykey for no. ")
       i = input("");
       if(i == "y"):
           print(breaking * 10);
           a = int(input("Min: "))
           b = int(input("Max: "))
 
-          print("now type in the number")
+          print("\nNow type in the number")
           c = int(input(" "))
           tries = 1;
           if(a > b):
-                      print("error, min can't be more than max. ")
+                      print("\nError, min can't be more than max. ")
                       a = int(input("Min: "))
                       b = int(input("Max: "))
-                      print("now type in the number")
+                      print("\nNow type in the number")
                       c = int(input(" "))
           else:
             d = random.randint(a, b)

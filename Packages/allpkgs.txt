@@ -7,3 +7,4 @@ zipcracker
 npm
 ytdownload
 graphcal
+cmdmaker

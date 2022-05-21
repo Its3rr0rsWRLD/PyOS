@@ -1,0 +1,3 @@
+local Packages/cmdmaker
+run cmdmaker.py
+install cmdmaker.py placeholder.txt

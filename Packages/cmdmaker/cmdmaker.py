@@ -22,4 +22,4 @@ import sys
 answer = input()
 
 if answer""" + cmd1 + """
-""" + cmd2)
+    """ + cmd2)

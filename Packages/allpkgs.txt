@@ -8,3 +8,4 @@ npm
 ytdownload
 graphcal
 cmdmaker
+Updater

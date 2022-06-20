@@ -7,7 +7,7 @@ r = requests.get('https://raw.githubusercontent.com/ThatError404/PyOS/main/lates
 version = r.text
 
 if int(version) > 2:
-    print('\nUpdate available! Latest Version: ' + version)
+    print('\nUpdate available! Latest Version: ' + version + '\n\nIf you already have the latest version, please ignore this update.\n\n')
     answer = input("\nDo you want to update? (y/n) ")
     if answer == "y" or answer == "Y":
         print("\nDownloading...")
